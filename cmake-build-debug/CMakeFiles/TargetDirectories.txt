@@ -1,0 +1,3 @@
+D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample.dir
+D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
