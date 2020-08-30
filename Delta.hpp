@@ -30,7 +30,7 @@ public:
 
     void PrintSeconds(const char* tag)
     {
-        LOGE(tag, "%f s", change.AsSeconds());
+        LOGE(tag, "%f s, %d ms", change.AsSeconds(), change.AsMilliseconds());
     }
 };
 

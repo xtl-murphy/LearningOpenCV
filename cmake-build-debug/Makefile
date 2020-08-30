@@ -161,6 +161,19 @@ OpenCV_Sample_Median/fast:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/build
 .PHONY : OpenCV_Sample_Median/fast
 
+#=============================================================================
+# Target rules for targets named OpenCV_Sample_Index
+
+# Build rule for target.
+OpenCV_Sample_Index: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 OpenCV_Sample_Index
+.PHONY : OpenCV_Sample_Index
+
+# fast build rule for target.
+OpenCV_Sample_Index/fast:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/build
+.PHONY : OpenCV_Sample_Index/fast
+
 Samples/Filter/Blur/Blur.obj: Samples/Filter/Blur/Blur.cpp.obj
 
 .PHONY : Samples/Filter/Blur/Blur.obj
@@ -214,6 +227,33 @@ Samples/Filter/Median/Median.s: Samples/Filter/Median/Median.cpp.s
 Samples/Filter/Median/Median.cpp.s:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/Samples/Filter/Median/Median.cpp.s
 .PHONY : Samples/Filter/Median/Median.cpp.s
+
+Samples/Index/Index.obj: Samples/Index/Index.cpp.obj
+
+.PHONY : Samples/Index/Index.obj
+
+# target to build an object file
+Samples/Index/Index.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/Samples/Index/Index.cpp.obj
+.PHONY : Samples/Index/Index.cpp.obj
+
+Samples/Index/Index.i: Samples/Index/Index.cpp.i
+
+.PHONY : Samples/Index/Index.i
+
+# target to preprocess a source file
+Samples/Index/Index.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/Samples/Index/Index.cpp.i
+.PHONY : Samples/Index/Index.cpp.i
+
+Samples/Index/Index.s: Samples/Index/Index.cpp.s
+
+.PHONY : Samples/Index/Index.s
+
+# target to generate assembly for a file
+Samples/Index/Index.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/Samples/Index/Index.cpp.s
+.PHONY : Samples/Index/Index.cpp.s
 
 Samples/Inter/Linear/Linear.obj: Samples/Inter/Linear/Linear.cpp.obj
 
@@ -279,6 +319,7 @@ help:
 	@echo ... OpenCV_Sample_Blur
 	@echo ... OpenCV_Sample_Linear
 	@echo ... OpenCV_Sample_Median
+	@echo ... OpenCV_Sample_Index
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Samples/Filter/Blur/Blur.obj
@@ -287,6 +328,9 @@ help:
 	@echo ... Samples/Filter/Median/Median.obj
 	@echo ... Samples/Filter/Median/Median.i
 	@echo ... Samples/Filter/Median/Median.s
+	@echo ... Samples/Index/Index.obj
+	@echo ... Samples/Index/Index.i
+	@echo ... Samples/Index/Index.s
 	@echo ... Samples/Inter/Linear/Linear.obj
 	@echo ... Samples/Inter/Linear/Linear.i
 	@echo ... Samples/Inter/Linear/Linear.s

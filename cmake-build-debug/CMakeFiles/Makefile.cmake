@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenCV_Sample_Blur.dir/DependInfo.cmake"
   "CMakeFiles/OpenCV_Sample_Linear.dir/DependInfo.cmake"
   "CMakeFiles/OpenCV_Sample_Median.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Sample_Index.dir/DependInfo.cmake"
   )

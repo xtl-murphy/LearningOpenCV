@@ -2,5 +2,6 @@ D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample.dir
 D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Blur.dir
 D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Linear.dir
 D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Median.dir
+D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Index.dir
 D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
