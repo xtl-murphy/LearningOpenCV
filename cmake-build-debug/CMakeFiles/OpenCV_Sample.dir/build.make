@@ -60,15 +60,15 @@ CMakeFiles/OpenCV_Sample.dir/main.cpp.obj: CMakeFiles/OpenCV_Sample.dir/flags.ma
 CMakeFiles/OpenCV_Sample.dir/main.cpp.obj: CMakeFiles/OpenCV_Sample.dir/includes_CXX.rsp
 CMakeFiles/OpenCV_Sample.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCV_Sample.dir/main.cpp.obj"
-	D:\software\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV_Sample.dir\main.cpp.obj -c D:\work\Clion\LearningOpenCV\main.cpp
+	D:\software\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV_Sample.dir\main.cpp.obj -c D:\work\Clion\LearningOpenCV\main.cpp
 
 CMakeFiles/OpenCV_Sample.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenCV_Sample.dir/main.cpp.i"
-	D:\software\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\Clion\LearningOpenCV\main.cpp > CMakeFiles\OpenCV_Sample.dir\main.cpp.i
+	D:\software\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\Clion\LearningOpenCV\main.cpp > CMakeFiles\OpenCV_Sample.dir\main.cpp.i
 
 CMakeFiles/OpenCV_Sample.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenCV_Sample.dir/main.cpp.s"
-	D:\software\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\Clion\LearningOpenCV\main.cpp -o CMakeFiles\OpenCV_Sample.dir\main.cpp.s
+	D:\software\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\Clion\LearningOpenCV\main.cpp -o CMakeFiles\OpenCV_Sample.dir\main.cpp.s
 
 # Object files for target OpenCV_Sample
 OpenCV_Sample_OBJECTS = \
@@ -79,6 +79,58 @@ OpenCV_Sample_EXTERNAL_OBJECTS =
 
 OpenCV_Sample.exe: CMakeFiles/OpenCV_Sample.dir/main.cpp.obj
 OpenCV_Sample.exe: CMakeFiles/OpenCV_Sample.dir/build.make
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_gapi.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_stitching.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_alphamat.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_aruco.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_bgsegm.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_ccalib.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_dnn_objdetect.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_dnn_superres.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_dpm.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_face.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_fuzzy.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_hdf.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_hfs.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_img_hash.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_intensity_transform.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_line_descriptor.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_ovis.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_quality.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_rapid.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_reg.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_rgbd.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_saliency.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_sfm.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_stereo.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_structured_light.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_superres.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_surface_matching.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_tracking.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_videostab.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_xfeatures2d.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_xobjdetect.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_xphoto.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_highgui.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_shape.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_datasets.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_plot.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_text.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_dnn.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_ml.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_phase_unwrapping.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_optflow.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_ximgproc.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_video.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_videoio.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_imgcodecs.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_objdetect.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_calib3d.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_features2d.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_flann.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_photo.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_imgproc.dll.a
+OpenCV_Sample.exe: D:/software/msys2/mingw64/lib/libopencv_core.dll.a
 OpenCV_Sample.exe: CMakeFiles/OpenCV_Sample.dir/linklibs.rsp
 OpenCV_Sample.exe: CMakeFiles/OpenCV_Sample.dir/objects1.rsp
 OpenCV_Sample.exe: CMakeFiles/OpenCV_Sample.dir/link.txt

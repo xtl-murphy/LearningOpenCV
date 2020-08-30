@@ -122,6 +122,126 @@ OpenCV_Sample/fast:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample.dir\build.make CMakeFiles/OpenCV_Sample.dir/build
 .PHONY : OpenCV_Sample/fast
 
+#=============================================================================
+# Target rules for targets named OpenCV_Sample_Blur
+
+# Build rule for target.
+OpenCV_Sample_Blur: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 OpenCV_Sample_Blur
+.PHONY : OpenCV_Sample_Blur
+
+# fast build rule for target.
+OpenCV_Sample_Blur/fast:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Blur.dir\build.make CMakeFiles/OpenCV_Sample_Blur.dir/build
+.PHONY : OpenCV_Sample_Blur/fast
+
+#=============================================================================
+# Target rules for targets named OpenCV_Sample_Linear
+
+# Build rule for target.
+OpenCV_Sample_Linear: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 OpenCV_Sample_Linear
+.PHONY : OpenCV_Sample_Linear
+
+# fast build rule for target.
+OpenCV_Sample_Linear/fast:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Linear.dir\build.make CMakeFiles/OpenCV_Sample_Linear.dir/build
+.PHONY : OpenCV_Sample_Linear/fast
+
+#=============================================================================
+# Target rules for targets named OpenCV_Sample_Median
+
+# Build rule for target.
+OpenCV_Sample_Median: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 OpenCV_Sample_Median
+.PHONY : OpenCV_Sample_Median
+
+# fast build rule for target.
+OpenCV_Sample_Median/fast:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/build
+.PHONY : OpenCV_Sample_Median/fast
+
+Samples/Filter/Blur/Blur.obj: Samples/Filter/Blur/Blur.cpp.obj
+
+.PHONY : Samples/Filter/Blur/Blur.obj
+
+# target to build an object file
+Samples/Filter/Blur/Blur.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Blur.dir\build.make CMakeFiles/OpenCV_Sample_Blur.dir/Samples/Filter/Blur/Blur.cpp.obj
+.PHONY : Samples/Filter/Blur/Blur.cpp.obj
+
+Samples/Filter/Blur/Blur.i: Samples/Filter/Blur/Blur.cpp.i
+
+.PHONY : Samples/Filter/Blur/Blur.i
+
+# target to preprocess a source file
+Samples/Filter/Blur/Blur.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Blur.dir\build.make CMakeFiles/OpenCV_Sample_Blur.dir/Samples/Filter/Blur/Blur.cpp.i
+.PHONY : Samples/Filter/Blur/Blur.cpp.i
+
+Samples/Filter/Blur/Blur.s: Samples/Filter/Blur/Blur.cpp.s
+
+.PHONY : Samples/Filter/Blur/Blur.s
+
+# target to generate assembly for a file
+Samples/Filter/Blur/Blur.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Blur.dir\build.make CMakeFiles/OpenCV_Sample_Blur.dir/Samples/Filter/Blur/Blur.cpp.s
+.PHONY : Samples/Filter/Blur/Blur.cpp.s
+
+Samples/Filter/Median/Median.obj: Samples/Filter/Median/Median.cpp.obj
+
+.PHONY : Samples/Filter/Median/Median.obj
+
+# target to build an object file
+Samples/Filter/Median/Median.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/Samples/Filter/Median/Median.cpp.obj
+.PHONY : Samples/Filter/Median/Median.cpp.obj
+
+Samples/Filter/Median/Median.i: Samples/Filter/Median/Median.cpp.i
+
+.PHONY : Samples/Filter/Median/Median.i
+
+# target to preprocess a source file
+Samples/Filter/Median/Median.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/Samples/Filter/Median/Median.cpp.i
+.PHONY : Samples/Filter/Median/Median.cpp.i
+
+Samples/Filter/Median/Median.s: Samples/Filter/Median/Median.cpp.s
+
+.PHONY : Samples/Filter/Median/Median.s
+
+# target to generate assembly for a file
+Samples/Filter/Median/Median.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/Samples/Filter/Median/Median.cpp.s
+.PHONY : Samples/Filter/Median/Median.cpp.s
+
+Samples/Inter/Linear/Linear.obj: Samples/Inter/Linear/Linear.cpp.obj
+
+.PHONY : Samples/Inter/Linear/Linear.obj
+
+# target to build an object file
+Samples/Inter/Linear/Linear.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Linear.dir\build.make CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj
+.PHONY : Samples/Inter/Linear/Linear.cpp.obj
+
+Samples/Inter/Linear/Linear.i: Samples/Inter/Linear/Linear.cpp.i
+
+.PHONY : Samples/Inter/Linear/Linear.i
+
+# target to preprocess a source file
+Samples/Inter/Linear/Linear.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Linear.dir\build.make CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.i
+.PHONY : Samples/Inter/Linear/Linear.cpp.i
+
+Samples/Inter/Linear/Linear.s: Samples/Inter/Linear/Linear.cpp.s
+
+.PHONY : Samples/Inter/Linear/Linear.s
+
+# target to generate assembly for a file
+Samples/Inter/Linear/Linear.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenCV_Sample_Linear.dir\build.make CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.s
+.PHONY : Samples/Inter/Linear/Linear.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -156,8 +276,20 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... OpenCV_Sample
+	@echo ... OpenCV_Sample_Blur
+	@echo ... OpenCV_Sample_Linear
+	@echo ... OpenCV_Sample_Median
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Samples/Filter/Blur/Blur.obj
+	@echo ... Samples/Filter/Blur/Blur.i
+	@echo ... Samples/Filter/Blur/Blur.s
+	@echo ... Samples/Filter/Median/Median.obj
+	@echo ... Samples/Filter/Median/Median.i
+	@echo ... Samples/Filter/Median/Median.s
+	@echo ... Samples/Inter/Linear/Linear.obj
+	@echo ... Samples/Inter/Linear/Linear.i
+	@echo ... Samples/Inter/Linear/Linear.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

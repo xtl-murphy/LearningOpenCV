@@ -23,6 +23,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-C.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU.cmake"
+  "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake"
+  "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/FindPackageMessage.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C.cmake"
@@ -33,6 +35,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/WindowsPaths.cmake"
   "D:/software/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/ProcessorCount.cmake"
+  "D:/software/msys2/mingw64/lib/cmake/opencv4/OpenCVConfig-version.cmake"
+  "D:/software/msys2/mingw64/lib/cmake/opencv4/OpenCVConfig.cmake"
+  "D:/software/msys2/mingw64/lib/cmake/opencv4/OpenCVModules-release.cmake"
+  "D:/software/msys2/mingw64/lib/cmake/opencv4/OpenCVModules.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.16.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
@@ -54,4 +60,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenCV_Sample.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Sample_Blur.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Sample_Linear.dir/DependInfo.cmake"
+  "CMakeFiles/OpenCV_Sample_Median.dir/DependInfo.cmake"
   )
