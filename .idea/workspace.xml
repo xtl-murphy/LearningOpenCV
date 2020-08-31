@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="OpenCV_Sample" targetName="OpenCV_Sample_Median" />
+      <config projectName="OpenCV_Sample" targetName="OpenCV_Sample_Linear" />
+      <config projectName="OpenCV_Sample" targetName="OpenCV_Sample_Index" />
+      <config projectName="OpenCV_Sample" targetName="OpenCV_Sample_Blur" />
       <config projectName="OpenCV_Sample" targetName="OpenCV_Sample" />
     </generated>
   </component>
@@ -79,7 +83,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\Clion\LearningOpenCV\Resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\Clion\LearningOpenCV" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.OpenCV_Sample_Blur">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -169,6 +181,33 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenCV_Sample_Blur" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Sample" TARGET_NAME="OpenCV_Sample_Blur" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Sample" RUN_TARGET_NAME="OpenCV_Sample_Blur">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV_Sample_Index" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Sample" TARGET_NAME="OpenCV_Sample_Index" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Sample" RUN_TARGET_NAME="OpenCV_Sample_Index">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV_Sample_Linear" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Sample" TARGET_NAME="OpenCV_Sample_Linear" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Sample" RUN_TARGET_NAME="OpenCV_Sample_Linear">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV_Sample_Median" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenCV_Sample" TARGET_NAME="OpenCV_Sample_Median" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenCV_Sample" RUN_TARGET_NAME="OpenCV_Sample_Median">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.OpenCV_Sample" />
+      <item itemvalue="CMake Application.OpenCV_Sample_Blur" />
+      <item itemvalue="CMake Application.OpenCV_Sample_Index" />
+      <item itemvalue="CMake Application.OpenCV_Sample_Linear" />
+      <item itemvalue="CMake Application.OpenCV_Sample_Median" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -181,8 +220,15 @@
       <option name="presentableId" value="Default" />
       <updated>1598634383829</updated>
       <workItem from="1598634385031" duration="1003000" />
+<<<<<<< HEAD
       <workItem from="1598690145791" duration="1757000" />
       <workItem from="1598691914115" duration="548000" />
+=======
+      <workItem from="1598700763667" duration="1948000" />
+      <workItem from="1598704572718" duration="5899000" />
+      <workItem from="1598758888915" duration="3670000" />
+      <workItem from="1598769138182" duration="14948000" />
+>>>>>>> f8e428ba3b27f5497df574265368ba7791d27290
     </task>
     <servers />
   </component>
@@ -190,6 +236,7 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1598691904162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -210,5 +257,78 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1598692225995" />
+=======
+    <state width="501" height="466" key="DebuggerActiveHint" timestamp="1598774702600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="501" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598774702600" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1598790651585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598790651585" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1598790651585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598790651585" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1598790651585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598790651585" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1598790651585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598790651585" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1598789334632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598789334632" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1598789334632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598789334632" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1598789334632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598789334632" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1598789334632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598789334632" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1598702803830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598702803830" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Samples/Index/Index.cpp</url>
+          <line>149</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Samples/Index/Index.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Samples/Index/Index.cpp</url>
+          <line>60</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Samples/Filter/Blur/Blur.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> f8e428ba3b27f5497df574265368ba7791d27290
   </component>
 </project>

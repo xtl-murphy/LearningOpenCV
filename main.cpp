@@ -1,10 +1,14 @@
 #include <iostream>
 
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb/stb_image.h"
+//#define STB_IMAGE_IMPLEMENTATION
+//#include "stb/stb_image.h"
+
+#include "Learning.hpp"
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    cv::Mat src = cv::imread("D:\\work\\Clion\\LearningOpenCV\\jiuling.jpg", IMREAD_COLOR);
+    cv::imshow("src", src);
+    cv::waitKey();
     return 0;
 }

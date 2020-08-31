@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 set(CMAKE_C_COMPILER "D:/Software/Development/msys64/mingw64/bin/gcc.exe")
+=======
+set(CMAKE_C_COMPILER "D:/software/msys2/mingw64/bin/gcc.exe")
+>>>>>>> f8e428ba3b27f5497df574265368ba7791d27290
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "9.2.0")
+set(CMAKE_C_COMPILER_VERSION "10.1.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
@@ -17,11 +21,19 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
+<<<<<<< HEAD
 set(CMAKE_AR "D:/Software/Development/msys64/mingw64/bin/ar.exe")
 set(CMAKE_C_COMPILER_AR "D:/Software/Development/msys64/mingw64/bin/gcc-ar.exe")
 set(CMAKE_RANLIB "D:/Software/Development/msys64/mingw64/bin/ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "D:/Software/Development/msys64/mingw64/bin/gcc-ranlib.exe")
 set(CMAKE_LINKER "D:/Software/Development/msys64/mingw64/bin/ld.exe")
+=======
+set(CMAKE_AR "D:/software/msys2/mingw64/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "D:/software/msys2/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/software/msys2/mingw64/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/software/msys2/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/software/msys2/mingw64/bin/ld.exe")
+>>>>>>> f8e428ba3b27f5497df574265368ba7791d27290
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -70,7 +82,13 @@ endif()
 
 
 
+<<<<<<< HEAD
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Software/Development/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include;D:/Software/Development/msys64/mingw64/include;D:/Software/Development/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed;D:/Software/Development/msys64/mingw64/x86_64-w64-mingw32/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "D:/Software/Development/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0;D:/Software/Development/msys64/mingw64/lib/gcc;D:/Software/Development/msys64/mingw64/x86_64-w64-mingw32/lib;D:/Software/Development/msys64/mingw64/lib")
+=======
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/software/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/10.1.0/include;D:/software/msys2/mingw64/include;D:/software/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed;D:/software/msys2/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "D:/software/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/10.1.0;D:/software/msys2/mingw64/lib/gcc;D:/software/msys2/mingw64/x86_64-w64-mingw32/lib;D:/software/msys2/mingw64/lib")
+>>>>>>> f8e428ba3b27f5497df574265368ba7791d27290
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
