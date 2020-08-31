@@ -15,7 +15,8 @@ set(LIB_DIR ${CMAKE_SOURCE_DIR})
 set(THIRD_DIR ${LIB_DIR}/ThirdParty)
 
 include_directories(${THIRD_DIR})
+add_subdirectory(ThirdParty/opencv-4.4.0)
 
 file(GLOB_RECURSE STB "${THIRD_DIR}/stb/*.c" "${THIRD_DIR}/stb/*.h")
 
-add_executable(OpenCV_Sample ${STB} main.cpp)
+add_executable(OpenCV_Sample ${STB} ${OpenCV} main.cpp)

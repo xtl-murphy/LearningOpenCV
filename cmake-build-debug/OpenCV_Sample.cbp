@@ -8,95 +8,95 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/work/Clion/LearningOpenCV/cmake-build-debug"/>
+				<Option working_dir="D:/Documents/git_work/LearningOpenCV/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OpenCV_Sample">
-				<Option output="D:/work/Clion/LearningOpenCV/cmake-build-debug/OpenCV_Sample.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/work/Clion/LearningOpenCV/cmake-build-debug"/>
+				<Option output="D:/Documents/git_work/LearningOpenCV/cmake-build-debug/OpenCV_Sample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/git_work/LearningOpenCV/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/work/Clion/LearningOpenCV/ThirdParty"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Documents/git_work/LearningOpenCV/ThirdParty"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV_Sample"/>
-					<CompileFile command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV_Sample"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OpenCV_Sample/fast">
-				<Option output="D:/work/Clion/LearningOpenCV/cmake-build-debug/OpenCV_Sample.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/work/Clion/LearningOpenCV/cmake-build-debug"/>
+				<Option output="D:/Documents/git_work/LearningOpenCV/cmake-build-debug/OpenCV_Sample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/git_work/LearningOpenCV/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/work/Clion/LearningOpenCV/ThirdParty"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
-					<Add directory="D:/software/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Documents/git_work/LearningOpenCV/ThirdParty"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV_Sample/fast"/>
-					<CompileFile command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV_Sample/fast"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/work/Clion/LearningOpenCV/cmake-build-debug"/>
+				<Option working_dir="D:/Documents/git_work/LearningOpenCV/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/work/Clion/LearningOpenCV/cmake-build-debug"/>
+				<Option working_dir="D:/Documents/git_work/LearningOpenCV/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/work/Clion/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/LearningOpenCV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/work/Clion/LearningOpenCV/ThirdParty/stb/stb_image.h">
+		<Unit filename="D:/Documents/git_work/LearningOpenCV/ThirdParty/stb/stb_image.h">
 			<Option target="OpenCV_Sample"/>
 		</Unit>
-		<Unit filename="D:/work/Clion/LearningOpenCV/ThirdParty/stb/stb_image_resize.h">
+		<Unit filename="D:/Documents/git_work/LearningOpenCV/ThirdParty/stb/stb_image_resize.h">
 			<Option target="OpenCV_Sample"/>
 		</Unit>
-		<Unit filename="D:/work/Clion/LearningOpenCV/ThirdParty/stb/stb_image_write.h">
+		<Unit filename="D:/Documents/git_work/LearningOpenCV/ThirdParty/stb/stb_image_write.h">
 			<Option target="OpenCV_Sample"/>
 		</Unit>
-		<Unit filename="D:/work/Clion/LearningOpenCV/main.cpp">
+		<Unit filename="D:/Documents/git_work/LearningOpenCV/main.cpp">
 			<Option target="OpenCV_Sample"/>
 		</Unit>
-		<Unit filename="D:/work/Clion/LearningOpenCV/CMakeLists.txt">
+		<Unit filename="D:/Documents/git_work/LearningOpenCV/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
