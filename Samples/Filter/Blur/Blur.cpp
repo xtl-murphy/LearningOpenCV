@@ -47,11 +47,12 @@ int main()
     Mat image = imread("..\\Resources\\jiuling.jpg", IMREAD_COLOR);
     Mat smallImage;
     Mat blurImage;
-    resize(image, smallImage, Size(image.size().width * 0.5, image.size().height * 0.5));
+    cv::resize(image, smallImage, Size(image.size().width * 0.5, image.size().height * 0.5));
 
-    blur(smallImage, blurImage, Size(10, 10));
+    cv::blur(smallImage, blurImage, Size(10, 10));
 
     imshow("image", blurImage);
+    imshow("image_resize", smallImage);
     waitKey();
     return 0;
 }
