@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ToolSet: w64 8.0 (local)@D:\Software\Development\msys64\mingw64
-=======
-ToolSet: w64 8.0 (local)@D:\software\msys2\mingw64
->>>>>>> f8e428ba3b27f5497df574265368ba7791d27290
 Options: 
 
 Options:

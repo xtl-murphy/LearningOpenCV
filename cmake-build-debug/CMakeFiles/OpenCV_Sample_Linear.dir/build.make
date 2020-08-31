@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\software\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Software\Development\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\software\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Software\Development\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\work\Clion\LearningOpenCV
+CMAKE_SOURCE_DIR = D:\Documents\git_work\LearningOpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\work\Clion\LearningOpenCV\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Documents\git_work\LearningOpenCV\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenCV_Sample_Linear.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/OpenCV_Sample_Linear.dir/flags.make
 CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj: CMakeFiles/OpenCV_Sample_Linear.dir/flags.make
 CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj: CMakeFiles/OpenCV_Sample_Linear.dir/includes_CXX.rsp
 CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj: ../Samples/Inter/Linear/Linear.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj"
-	D:\software\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV_Sample_Linear.dir\Samples\Inter\Linear\Linear.cpp.obj -c D:\work\Clion\LearningOpenCV\Samples\Inter\Linear\Linear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj"
+	D:\Software\Development\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV_Sample_Linear.dir\Samples\Inter\Linear\Linear.cpp.obj -c D:\Documents\git_work\LearningOpenCV\Samples\Inter\Linear\Linear.cpp
 
 CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.i"
-	D:\software\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\Clion\LearningOpenCV\Samples\Inter\Linear\Linear.cpp > CMakeFiles\OpenCV_Sample_Linear.dir\Samples\Inter\Linear\Linear.cpp.i
+	D:\Software\Development\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\git_work\LearningOpenCV\Samples\Inter\Linear\Linear.cpp > CMakeFiles\OpenCV_Sample_Linear.dir\Samples\Inter\Linear\Linear.cpp.i
 
 CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.s"
-	D:\software\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\Clion\LearningOpenCV\Samples\Inter\Linear\Linear.cpp -o CMakeFiles\OpenCV_Sample_Linear.dir\Samples\Inter\Linear\Linear.cpp.s
+	D:\Software\Development\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\git_work\LearningOpenCV\Samples\Inter\Linear\Linear.cpp -o CMakeFiles\OpenCV_Sample_Linear.dir\Samples\Inter\Linear\Linear.cpp.s
 
 # Object files for target OpenCV_Sample_Linear
 OpenCV_Sample_Linear_OBJECTS = \
@@ -79,62 +79,59 @@ OpenCV_Sample_Linear_EXTERNAL_OBJECTS =
 
 OpenCV_Sample_Linear.exe: CMakeFiles/OpenCV_Sample_Linear.dir/Samples/Inter/Linear/Linear.cpp.obj
 OpenCV_Sample_Linear.exe: CMakeFiles/OpenCV_Sample_Linear.dir/build.make
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_gapi.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_stitching.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_alphamat.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_aruco.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_bgsegm.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_ccalib.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_dnn_objdetect.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_dnn_superres.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_dpm.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_face.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_fuzzy.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_hdf.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_hfs.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_img_hash.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_intensity_transform.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_line_descriptor.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_ovis.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_quality.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_rapid.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_reg.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_rgbd.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_saliency.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_sfm.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_stereo.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_structured_light.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_superres.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_surface_matching.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_tracking.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_videostab.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_xfeatures2d.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_xobjdetect.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_xphoto.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_highgui.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_shape.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_datasets.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_plot.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_text.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_dnn.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_ml.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_phase_unwrapping.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_optflow.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_ximgproc.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_video.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_videoio.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_imgcodecs.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_objdetect.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_calib3d.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_features2d.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_flann.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_photo.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_imgproc.dll.a
-OpenCV_Sample_Linear.exe: D:/software/msys2/mingw64/lib/libopencv_core.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_gapi.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_stitching.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_aruco.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_bgsegm.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_ccalib.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_dnn_objdetect.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_dnn_superres.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_dpm.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_face.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_fuzzy.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_hdf.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_hfs.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_img_hash.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_line_descriptor.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_ovis.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_quality.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_reg.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_rgbd.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_saliency.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_sfm.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_stereo.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_structured_light.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_superres.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_surface_matching.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_tracking.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_videostab.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_xfeatures2d.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_xobjdetect.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_xphoto.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_highgui.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_shape.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_datasets.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_plot.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_text.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_dnn.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_ml.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_phase_unwrapping.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_optflow.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_ximgproc.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_video.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_videoio.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_imgcodecs.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_objdetect.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_calib3d.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_features2d.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_flann.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_photo.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_imgproc.dll.a
+OpenCV_Sample_Linear.exe: D:/Software/Development/msys64/mingw64/lib/libopencv_core.dll.a
 OpenCV_Sample_Linear.exe: CMakeFiles/OpenCV_Sample_Linear.dir/linklibs.rsp
 OpenCV_Sample_Linear.exe: CMakeFiles/OpenCV_Sample_Linear.dir/objects1.rsp
 OpenCV_Sample_Linear.exe: CMakeFiles/OpenCV_Sample_Linear.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenCV_Sample_Linear.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenCV_Sample_Linear.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenCV_Sample_Linear.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +144,6 @@ CMakeFiles/OpenCV_Sample_Linear.dir/clean:
 .PHONY : CMakeFiles/OpenCV_Sample_Linear.dir/clean
 
 CMakeFiles/OpenCV_Sample_Linear.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\work\Clion\LearningOpenCV D:\work\Clion\LearningOpenCV D:\work\Clion\LearningOpenCV\cmake-build-debug D:\work\Clion\LearningOpenCV\cmake-build-debug D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles\OpenCV_Sample_Linear.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Documents\git_work\LearningOpenCV D:\Documents\git_work\LearningOpenCV D:\Documents\git_work\LearningOpenCV\cmake-build-debug D:\Documents\git_work\LearningOpenCV\cmake-build-debug D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles\OpenCV_Sample_Linear.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpenCV_Sample_Linear.dir/depend
 

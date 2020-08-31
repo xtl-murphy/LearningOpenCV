@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/work/Clion/LearningOpenCV/Samples/Filter/Median/Median.cpp" "D:/work/Clion/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Median.dir/Samples/Filter/Median/Median.cpp.obj"
+  "D:/Documents/git_work/LearningOpenCV/Samples/Filter/Median/Median.cpp" "D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Median.dir/Samples/Filter/Median/Median.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../ThirdParty"
   "../"
-  "D:/software/msys2/mingw64/include/opencv4"
+  "D:/Software/Development/msys64/mingw64/include/opencv4"
   )
 
 # Targets to which this target links.

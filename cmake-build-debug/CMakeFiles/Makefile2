@@ -34,19 +34,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\software\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Software\Development\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\software\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Software\Development\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\work\Clion\LearningOpenCV
+CMAKE_SOURCE_DIR = D:\Documents\git_work\LearningOpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\work\Clion\LearningOpenCV\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Documents\git_work\LearningOpenCV\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -56,7 +56,6 @@ all: CMakeFiles/OpenCV_Sample.dir/all
 all: CMakeFiles/OpenCV_Sample_Blur.dir/all
 all: CMakeFiles/OpenCV_Sample_Linear.dir/all
 all: CMakeFiles/OpenCV_Sample_Median.dir/all
-all: CMakeFiles/OpenCV_Sample_Index.dir/all
 
 .PHONY : all
 
@@ -70,7 +69,6 @@ clean: CMakeFiles/OpenCV_Sample.dir/clean
 clean: CMakeFiles/OpenCV_Sample_Blur.dir/clean
 clean: CMakeFiles/OpenCV_Sample_Linear.dir/clean
 clean: CMakeFiles/OpenCV_Sample_Median.dir/clean
-clean: CMakeFiles/OpenCV_Sample_Index.dir/clean
 
 .PHONY : clean
 
@@ -81,14 +79,14 @@ clean: CMakeFiles/OpenCV_Sample_Index.dir/clean
 CMakeFiles/OpenCV_Sample.dir/all:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample.dir\build.make CMakeFiles/OpenCV_Sample.dir/depend
 	$(MAKE) -f CMakeFiles\OpenCV_Sample.dir\build.make CMakeFiles/OpenCV_Sample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target OpenCV_Sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target OpenCV_Sample"
 .PHONY : CMakeFiles/OpenCV_Sample.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenCV_Sample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OpenCV_Sample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OpenCV_Sample.dir/rule
 
 # Convenience name for target.
@@ -108,14 +106,14 @@ CMakeFiles/OpenCV_Sample.dir/clean:
 CMakeFiles/OpenCV_Sample_Blur.dir/all:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Blur.dir\build.make CMakeFiles/OpenCV_Sample_Blur.dir/depend
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Blur.dir\build.make CMakeFiles/OpenCV_Sample_Blur.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target OpenCV_Sample_Blur"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target OpenCV_Sample_Blur"
 .PHONY : CMakeFiles/OpenCV_Sample_Blur.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenCV_Sample_Blur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OpenCV_Sample_Blur.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OpenCV_Sample_Blur.dir/rule
 
 # Convenience name for target.
@@ -135,14 +133,14 @@ CMakeFiles/OpenCV_Sample_Blur.dir/clean:
 CMakeFiles/OpenCV_Sample_Linear.dir/all:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Linear.dir\build.make CMakeFiles/OpenCV_Sample_Linear.dir/depend
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Linear.dir\build.make CMakeFiles/OpenCV_Sample_Linear.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target OpenCV_Sample_Linear"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target OpenCV_Sample_Linear"
 .PHONY : CMakeFiles/OpenCV_Sample_Linear.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenCV_Sample_Linear.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OpenCV_Sample_Linear.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OpenCV_Sample_Linear.dir/rule
 
 # Convenience name for target.
@@ -162,14 +160,14 @@ CMakeFiles/OpenCV_Sample_Linear.dir/clean:
 CMakeFiles/OpenCV_Sample_Median.dir/all:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/depend
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target OpenCV_Sample_Median"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target OpenCV_Sample_Median"
 .PHONY : CMakeFiles/OpenCV_Sample_Median.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenCV_Sample_Median.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OpenCV_Sample_Median.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\git_work\LearningOpenCV\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OpenCV_Sample_Median.dir/rule
 
 # Convenience name for target.
@@ -181,33 +179,6 @@ OpenCV_Sample_Median: CMakeFiles/OpenCV_Sample_Median.dir/rule
 CMakeFiles/OpenCV_Sample_Median.dir/clean:
 	$(MAKE) -f CMakeFiles\OpenCV_Sample_Median.dir\build.make CMakeFiles/OpenCV_Sample_Median.dir/clean
 .PHONY : CMakeFiles/OpenCV_Sample_Median.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/OpenCV_Sample_Index.dir
-
-# All Build rule for target.
-CMakeFiles/OpenCV_Sample_Index.dir/all:
-	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/depend
-	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target OpenCV_Sample_Index"
-.PHONY : CMakeFiles/OpenCV_Sample_Index.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/OpenCV_Sample_Index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OpenCV_Sample_Index.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\work\Clion\LearningOpenCV\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/OpenCV_Sample_Index.dir/rule
-
-# Convenience name for target.
-OpenCV_Sample_Index: CMakeFiles/OpenCV_Sample_Index.dir/rule
-
-.PHONY : OpenCV_Sample_Index
-
-# clean rule for target.
-CMakeFiles/OpenCV_Sample_Index.dir/clean:
-	$(MAKE) -f CMakeFiles\OpenCV_Sample_Index.dir\build.make CMakeFiles/OpenCV_Sample_Index.dir/clean
-.PHONY : CMakeFiles/OpenCV_Sample_Index.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -44,7 +44,7 @@ void blur(const Mat& src, Mat& dst, const Size& ksize)
 int main()
 {
 
-    Mat image = imread("D:\\work\\Clion\\LearningOpenCV\\Resources\\jiuling.jpg", IMREAD_COLOR);
+    Mat image = imread("..\\Resources\\jiuling.jpg", IMREAD_COLOR);
     Mat smallImage;
     Mat blurImage;
     resize(image, smallImage, Size(image.size().width * 0.5, image.size().height * 0.5));
