@@ -48,9 +48,11 @@ int main()
     Mat smallImage;
     Mat blurImage;
     cv::resize(image, smallImage, Size(image.size().width * 0.5, image.size().height * 0.5));
-
-    cv::blur(smallImage, blurImage, Size(10, 10));
-
+    Delta deltaUpdate;
+    deltaUpdate.Update();
+    cv::blur(smallImage, blurImage, Size(101, 101));
+    deltaUpdate.Update();
+    deltaUpdate.PrintSeconds("Blur");
     imshow("image", blurImage);
     imshow("image_resize", smallImage);
     waitKey();
