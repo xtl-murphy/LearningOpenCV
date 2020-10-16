@@ -1,6 +1,0 @@
-D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample.dir
-D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Blur.dir
-D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Linear.dir
-D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/OpenCV_Sample_Median.dir
-D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Documents/git_work/LearningOpenCV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
