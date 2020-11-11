@@ -35,7 +35,17 @@ int main()
     imshow("image", image);
 
     std::unique_ptr<LessonOne> ptr = std::make_unique<LessonOne>();
-    ptr->work();
+//    std::unique_ptr<LessonOne> ptr;
+    if (ptr)
+    {
+        LOGV("Sample", "work 1: %d", ptr.operator bool());
+    }
+    else
+    {
+        LOGV("Sample", "work 2: %d", ptr.operator bool());
+    }
+
+//    ptr->work();
 //    ptr.reset();
     LOGV("Sample", "work: %d", ptr.operator bool());
     cv::waitKey();
