@@ -46,6 +46,9 @@ public:
         LOGNOMSG("NormalClass", "NormalClass& operator=(NormalClass &&obj) : obj : %p, this : %p", &obj, this);
         return *this;
     }
+
+protected:
+    float x, y;
 };
 
 class NormalClassList
@@ -75,4 +78,13 @@ public:
     }
 private:
     std::vector<NormalClass> list;
+};
+
+class SubNormal : public NormalClass
+{
+public:
+    SubNormal()
+    {
+        this->x = 10;
+    }
 };
