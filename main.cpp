@@ -1,4 +1,4 @@
-#include <iostream>
+//#include <iostream>
 
 //#define STB_IMAGE_IMPLEMENTATION
 //#include "stb/stb_image.h"
@@ -12,8 +12,9 @@ public:
 
     LessonOne()
     {
-        this->radius = std::rand();
+//        this->radius = std::rand();
         LOGV("Sample", "LessonOne %d", this->radius);
+//        std::cout << "";
     }
 
     ~LessonOne()

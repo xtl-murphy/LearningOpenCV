@@ -94,7 +94,7 @@ static void paint_voronoi( Mat& img, Subdiv2D& subdiv )
 int main()
 {
 
-    Mat image = imread("..\\Resources\\2.jpg", IMREAD_COLOR);
+    Mat image = imread("../Resources/2.jpg", IMREAD_COLOR);
     Scalar active_facet_color(0, 0, 255), delaunay_color(255,255,255);
     std::vector<Point2f> points;
 
