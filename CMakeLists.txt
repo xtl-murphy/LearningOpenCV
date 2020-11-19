@@ -40,7 +40,7 @@ file(GLOB_RECURSE Core
         )
 
 
-add_executable(OpenCV_Sample ${STB} ${Core} main.cpp Samples/Algorithm/Linked/mergeTwoLists.hpp)
+add_executable(OpenCV_Sample ${STB} ${Core} main.cpp Samples/Algorithm/Linked/mergeTwoLists.hpp Samples/Algorithm/Linked/deleteDuplicates.hpp Samples/Algorithm/Linked/Listnode.hpp Samples/Algorithm/Linked/hasCycle.hpp)
 add_executable(OpenCV_Sample_Linear ${STB} ${Core} ${INTER_DIR}/Linear/Linear.cpp)
 add_executable(OpenCV_Sample_Blur ${STB} ${Core} ${FILTER_DIR}/Blur/Blur.cpp)
 add_executable(OpenCV_Sample_Median ${STB} ${Core} ${FILTER_DIR}/Median/Median.cpp)
