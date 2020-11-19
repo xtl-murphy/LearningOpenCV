@@ -9,10 +9,11 @@
 
 #pragma once
 
-#include "Listnode.hpp"
+#include "ListNode.hpp"
 #include <unordered_set>
 
-bool hasCycle(ListNode *head) {
+bool hasCycle(ListNode *head)
+{
     std::unordered_set<ListNode*> seen;
     while (nullptr != head)
     {

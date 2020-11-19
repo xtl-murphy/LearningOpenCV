@@ -36,17 +36,19 @@ file(GLOB_RECURSE Samples "${SAMPLES_DIR}/*.cpp")
 file(GLOB_RECURSE Core
         "${LIB_DIR}/Time.hpp"
         "${LIB_DIR}/Time.inl"
-        "${LIB_DIR}/Delta.hpp"
-        )
+        "${LIB_DIR}/Delta.hpp")
+
+file(GLOB_RECURSE Algorithm ${LIB_DIR}/Samples/Algorithm/*.hpp ${LIB_DIR}/Samples/Algorithm/*.cpp)
 
 
-add_executable(OpenCV_Sample ${STB} ${Core} main.cpp Samples/Algorithm/Linked/mergeTwoLists.hpp Samples/Algorithm/Linked/deleteDuplicates.hpp Samples/Algorithm/Linked/Listnode.hpp Samples/Algorithm/Linked/hasCycle.hpp)
+add_executable(OpenCV_Sample ${STB} ${Core} main.cpp)
 add_executable(OpenCV_Sample_Linear ${STB} ${Core} ${INTER_DIR}/Linear/Linear.cpp)
 add_executable(OpenCV_Sample_Blur ${STB} ${Core} ${FILTER_DIR}/Blur/Blur.cpp)
 add_executable(OpenCV_Sample_Median ${STB} ${Core} ${FILTER_DIR}/Median/Median.cpp)
 add_executable(OpenCV_Sample_Canny ${STB} ${Core} ${EDGE_DIR}/Canny/Canny.cpp)
 add_executable(OpenCV_Sample_Triangulation ${STB} ${Core} ${TRIANGULATION_DIR}/Delaunay/Delaunay.cpp)
 add_executable(OpenCV_Sample_Clazz ${STB} ${Core} ${CLAZZ_DIR}/Clazz.cpp ${CLAZZ_DIR}/NormalClass.hpp Samples/Clazz/KeyWordClass.hpp Samples/Clazz/ConstClass.hpp)
+add_executable(OpenCV_Sample_Algorithm ${Core} ${Algorithm})
 
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBRARIES})
 target_link_libraries(OpenCV_Sample_Linear ${OpenCV_LIBRARIES})

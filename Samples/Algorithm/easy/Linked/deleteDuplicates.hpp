@@ -9,9 +9,10 @@
 
 #pragma once
 
-#include "Listnode.hpp"
+#include "ListNode.hpp"
 
-ListNode* deleteDuplicates(ListNode* head) {
+ListNode* deleteDuplicates(ListNode* head)
+{
     if (!head || !head->next)
     {
         return head;
