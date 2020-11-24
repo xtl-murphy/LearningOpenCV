@@ -12,6 +12,11 @@
 #include "ListNode.hpp"
 #include <unordered_set>
 
+/**
+ * 环形链表
+ * @param head
+ * @return
+ */
 bool hasCycle(ListNode *head)
 {
     std::unordered_set<ListNode*> seen;

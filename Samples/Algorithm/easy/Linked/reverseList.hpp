@@ -10,6 +10,11 @@
 
 #include "ListNode.hpp"
 
+/**
+ * 反转链表
+ * @param head
+ * @return
+ */
 ListNode* reverseList(ListNode* head) {
     ListNode* cur = nullptr, *pre = head;
     while (nullptr != pre)

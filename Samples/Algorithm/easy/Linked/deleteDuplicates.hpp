@@ -11,6 +11,11 @@
 
 #include "ListNode.hpp"
 
+/**
+ * 删除列表的重复元素
+ * @param head
+ * @return 输出一个没有重复元素的链表
+ */
 ListNode* deleteDuplicates(ListNode* head)
 {
     if (!head || !head->next)
