@@ -2,6 +2,7 @@
 #include "Learning.hpp"
 #include "NormalClass.hpp"
 #include "KeyWordClass.hpp"
+#include "Component.hpp"
 
 
 NormalClass getTest1()
@@ -49,10 +50,28 @@ int main()
 //    LOGNOMSG("MAIN", "8 : %p", &obj8);
 //    LOGNOMSG("MAIN", "end");
 
-    KeyWordClass keyWordClass(1);
-    KeyWordClass keyWordClass2 = 2;
+//    KeyWordClass keyWordClass(1);
+//    KeyWordClass keyWordClass2 = 2;
 //    KeyWordClass keyWordClass3;
-    keyWordClass = 3;
+//    keyWordClass = 3;
+
+    /**
+     * 泛型初始化的问题
+     */
+    ComponentClass componentClass;
+    componentClass.init();
+    const NormalClass& one = componentClass.getOne();
+    const NormalClass& two = componentClass.getTwo();
+    const NormalClass& three = componentClass.getThree();
+    const NormalClass& four = componentClass.getFour();
+
+    four.value = 1;
+//    componentClass.getOne();
+//    componentClass.getTwo();
+//    componentClass.getThree();
+//    componentClass.getFour();
+//    LOGNOMSG("ComponentClass", "getOne  %p", &one);
+//    LOGNOMSG("ComponentClass", "getTwo  %p", &two);
     return 0;
 
 }

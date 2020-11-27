@@ -25,10 +25,16 @@ public:
 
     }
 
+    NormalClass(NormalClass& obj)
+    {
+        LOGNOMSG("NormalClass", "NormalClass(NormalClass& obj) : obj : %p, this : %p", &obj, this);
+    }
+
     NormalClass(const NormalClass& obj)
     {
         LOGNOMSG("NormalClass", "NormalClass(const NormalClass& obj) : obj : %p, this : %p", &obj, this);
     }
+
 
     NormalClass& operator=(const NormalClass& obj)
     {
@@ -46,7 +52,7 @@ public:
         LOGNOMSG("NormalClass", "NormalClass& operator=(NormalClass &&obj) : obj : %p, this : %p", &obj, this);
         return *this;
     }
-
+    float value;
 protected:
     float x, y;
 };
