@@ -13,58 +13,78 @@
 
 using namespace std;
 
-vector<int> searchForRange(vector<int>& array, int target)
+int binarySearch(vector<int>& nums, int low, int high, int target)
 {
-    vector<int> list;
-    int n = array.size();
-    if (array.empty())
+    while (low <= high)
     {
-        return {0};
+        int mid = low + (high - low) * 0.5;
+        if (nums[mid] == target)
+        {
+            return mid;
+        }
+
+        if (target > nums[mid])
+        {
+            low = mid + 1;
+        }
+        if (target < nums[mid])
+        {
+            high = mid - 1;
+        }
     }
-    else
+    return -1;
+}
+
+vector<int> searchForRange(vector<int>& nums, int target)
+{
+
+    int n = nums.size();
+    int pos = binarySearch(nums, 0, n - 1, target);
+
+    vector<int> result;
+    int low = -1, high = -1;
+    if (pos >= 0)
     {
-        int low = 0;
-        int high = n - 1;
-
-        while (low <= high)
+        low = pos;
+        int l = low;
+        while (l >= 0)
         {
-            int mid = low + (high - low) * 0.5;
-            if (array[mid] >= target)
-            {
-                high = mid - 1;
-            }
-            else
-            {
-                low = mid + 1;
-            }
+            low = l;
+            l = binarySearch(nums, 0, low - 1, target);
         }
 
-        if (low < n && array[low] >= target)
+        high = pos;
+        int h = high;
+        while (h >= 0)
         {
-            list.push_back(array[low]);
+            high = h;
+            h = binarySearch(nums, high + 1, n - 1, target);
         }
-        else
-        {
-            return { 0 };
-        }
-
-        high = n - 1;
-        while(low <= high)
-        {
-            int mid = low + (high - low) * 0.5;
-            if(array[mid] <= target)
-            {
-                low = mid + 1;
-            }
-            else
-            {
-                high = mid - 1;
-            }
-        }
-
-        list.push_back(array[high]);
-        return list;
     }
+
+    result.push_back(low);
+    result.push_back(high);
+    return result;
+}
+
+vector<int> searchForRange2(vector<int>& nums, int target)
+{
+
+    int n = nums.size();
+    int pos = binarySearch(nums, 0, n - 1, target);
+
+    vector<int> result;
+    int low = -1, high = -1;
+
+    if (pos >= 0)
+    {
+
+    }
+
+
+    result.push_back(low);
+    result.push_back(high);
+    return result;
 }
 
 

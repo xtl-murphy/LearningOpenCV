@@ -50,13 +50,13 @@ int main()
      * array
      */
 
-//    std::vector<int> list = {0, 1, 2, 3, 4, 8, 8, 9, 18};
-//    std::vector<int> newList = searchForRange(list, 4);
-//
-//    for (int i = 0; i < newList.size(); ++i)
-//    {
-//        LOGE("Algorithm", "array node %d", newList[i]);
-//    }
+    std::vector<int> list = {0, 1, 2, 3, 4, 4, 4, 8, 8, 9, 18};
+    std::vector<int> newList = searchForRange(list, 4);
+
+    for (int i = 0; i < newList.size(); ++i)
+    {
+        LOGNOMSG("Algorithm", "array node %d", newList[i]);
+    }
 
     return 0;
 }

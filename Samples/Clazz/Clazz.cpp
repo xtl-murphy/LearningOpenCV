@@ -63,7 +63,7 @@ int main()
     const NormalClass& one = componentClass.getOne();
     const NormalClass& two = componentClass.getTwo();
     const NormalClass& three = componentClass.getThree();
-    const NormalClass& four = componentClass.getFour();
+    NormalClass& four = componentClass.getFour();
 
     four.value = 1;
 //    componentClass.getOne();
