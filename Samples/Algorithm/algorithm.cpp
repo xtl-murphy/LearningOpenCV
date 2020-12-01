@@ -1,6 +1,7 @@
 
 #include "easy/Linked/mergeTwoLists.hpp"
 #include "middle/array/searchForRange.hpp"
+#include "middle/array/intervalIntersection.hpp"
 #include "easy/Linked/reverseList.hpp"
 #include "Learning.hpp"
 
@@ -9,16 +10,16 @@ int main()
     /**
      * ListNode
      */
-    ListNode node1 = 1;
-    ListNode node2 = 2;
-    ListNode node3 = 3;
-    ListNode node4 = 4;
-    ListNode node5 = 5;
-    ListNode node6 = 6;
-    node1.next = &node3;
-    node3.next = &node5;
-    node2.next = &node4;
-    node4.next = &node6;
+//    ListNode node1 = 1;
+//    ListNode node2 = 2;
+//    ListNode node3 = 3;
+//    ListNode node4 = 4;
+//    ListNode node5 = 5;
+//    ListNode node6 = 6;
+//    node1.next = &node3;
+//    node3.next = &node5;
+//    node2.next = &node4;
+//    node4.next = &node6;
 //
 //    ListNode *node = mergeTwoLists1(&node1, &node2);
 //    while (node)
@@ -50,12 +51,32 @@ int main()
      * array
      */
 
-    std::vector<int> list = {0, 1, 2, 3, 4, 4, 4, 8, 8, 9, 18};
-    std::vector<int> newList = searchForRange(list, 4);
+//    std::vector<int> list = {0, 1, 2, 3, 4, 4, 4, 8, 8, 9, 18};
+//    std::vector<int> newList = searchForRange(list, 4);
+//
+//    for (int i = 0; i < newList.size(); ++i)
+//    {
+//        LOGNOMSG("Algorithm", "array node %d", newList[i]);
+//    }
 
-    for (int i = 0; i < newList.size(); ++i)
+    /**
+     *
+     * intervalIntersection
+     */
+    std::vector<std::vector<int>> A =
     {
-        LOGNOMSG("Algorithm", "array node %d", newList[i]);
+        {0,2},{5,10},{13,23},{24,25}
+    };
+    std::vector<std::vector<int>> B =
+    {
+        {1,5},{8,12}
+    };
+
+    std::vector<std::vector<int>> C = intervalIntersection(A, B);
+
+    for (int i = 0; i < C.size(); ++i)
+    {
+        LOGNOMSG("intervalIntersection", "{%d, %d}", C[i][0], C[i][1]);
     }
 
     return 0;
