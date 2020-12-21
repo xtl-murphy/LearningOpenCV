@@ -32,23 +32,33 @@ public:
 
 int main()
 {
-    Mat image = imread("..\\Resources\\jiuling.jpg", IMREAD_COLOR);
-    imshow("image", image);
+//    Mat image = imread("..\\Resources\\jiuling.jpg", IMREAD_COLOR);
+//    imshow("image", image);
+//
+//    std::unique_ptr<LessonOne> ptr = std::make_unique<LessonOne>();
+////    std::unique_ptr<LessonOne> ptr;
+//    if (ptr)
+//    {
+//        LOGV("Sample", "work 1: %d", ptr.operator bool());
+//    }
+//    else
+//    {
+//        LOGV("Sample", "work 2: %d", ptr.operator bool());
+//    }
+//
+////    ptr->work();
+////    ptr.reset();
+//    LOGV("Sample", "work: %d", ptr.operator bool());
+//    cv::waitKey();
 
-    std::unique_ptr<LessonOne> ptr = std::make_unique<LessonOne>();
-//    std::unique_ptr<LessonOne> ptr;
-    if (ptr)
+    for (int i = 0; i < 10; ++i)
     {
-        LOGV("Sample", "work 1: %d", ptr.operator bool());
-    }
-    else
-    {
-        LOGV("Sample", "work 2: %d", ptr.operator bool());
+        srand(2 + i);
+        int randomNum = rand();
+
+        int current = randomNum % 9;
+        LOGNOMSG("Rand", " %d, %d, %d",i, randomNum, current);
     }
 
-//    ptr->work();
-//    ptr.reset();
-    LOGV("Sample", "work: %d", ptr.operator bool());
-    cv::waitKey();
     return 0;
 }
