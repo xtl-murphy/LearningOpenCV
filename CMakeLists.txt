@@ -41,7 +41,7 @@ file(GLOB_RECURSE Core
 file(GLOB_RECURSE Algorithm ${LIB_DIR}/Samples/Algorithm/*.hpp ${LIB_DIR}/Samples/Algorithm/*.cpp)
 
 
-add_executable(OpenCV_Sample ${STB} ${Core} main.cpp)
+add_executable(OpenCV_Sample ${STB} ${Core} main.cpp Samples/Algorithm/middle/array/addToArrayForm.hpp)
 add_executable(OpenCV_Sample_Linear ${STB} ${Core} ${INTER_DIR}/Linear/Linear.cpp)
 add_executable(OpenCV_Sample_Blur ${STB} ${Core} ${FILTER_DIR}/Blur/Blur.cpp)
 add_executable(OpenCV_Sample_Median ${STB} ${Core} ${FILTER_DIR}/Median/Median.cpp)
