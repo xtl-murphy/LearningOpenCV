@@ -48,6 +48,7 @@ add_executable(OpenCV_Sample_Median ${STB} ${Core} ${FILTER_DIR}/Median/Median.c
 add_executable(OpenCV_Sample_Canny ${STB} ${Core} ${EDGE_DIR}/Canny/Canny.cpp)
 add_executable(OpenCV_Sample_Triangulation ${STB} ${Core} ${TRIANGULATION_DIR}/Delaunay/Delaunay.cpp)
 add_executable(OpenCV_Sample_Clazz ${STB} ${Core} ${CLAZZ_DIR}/Clazz.cpp ${CLAZZ_DIR}/NormalClass.hpp Samples/Clazz/KeyWordClass.hpp Samples/Clazz/ConstClass.hpp)
+add_executable(Sample_Clazz_Union ${STB} ${Core} ${CLAZZ_DIR}/union/UnionTest.cpp)
 add_executable(OpenCV_Sample_Algorithm ${Core} ${Algorithm})
 
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBRARIES})

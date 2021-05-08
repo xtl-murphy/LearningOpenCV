@@ -1,5 +1,6 @@
 
 #include "easy/Linked/mergeTwoLists.hpp"
+#include "easy/array/spiralOrder.hpp"
 #include "middle/array/searchForRange.hpp"
 #include "middle/array/intervalIntersection.hpp"
 #include "easy/Linked/reverseList.hpp"
@@ -63,20 +64,32 @@ int main()
      *
      * intervalIntersection
      */
-    std::vector<std::vector<int>> A =
-    {
-        {0,2},{5,10},{13,23},{24,25}
-    };
-    std::vector<std::vector<int>> B =
-    {
-        {1,5},{8,12}
-    };
+//    std::vector<std::vector<int>> A =
+//    {
+//        {0,2},{5,10},{13,23},{24,25}
+//    };
+//    std::vector<std::vector<int>> B =
+//    {
+//        {1,5},{8,12}
+//    };
+//
+//    std::vector<std::vector<int>> C = intervalIntersection(A, B);
+//
+//    for (int i = 0; i < C.size(); ++i)
+//    {
+//        LOGNOMSG("intervalIntersection", "{%d, %d}", C[i][0], C[i][1]);
+//    }
 
-    std::vector<std::vector<int>> C = intervalIntersection(A, B);
+    vector<vector<int>> matrix =
+    {{0, 1, 2},
+     {3, 4, 5},
+     {6, 7, 8}};
 
-    for (int i = 0; i < C.size(); ++i)
+    vector<int> result = spiralOrder(matrix);
+
+    for (int i = 0; i < result.size(); ++i)
     {
-        LOGNOMSG("intervalIntersection", "{%d, %d}", C[i][0], C[i][1]);
+        LOGNOMSG("intervalIntersection", "{%d}", result[i]);
     }
 
     return 0;
